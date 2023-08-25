@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import {
   Button,
   Modal,
@@ -8,58 +8,80 @@ import {
   ModalCloseButton,
   ModalBody,
   ModalFooter,
+  FormControl,
+  FormLabel,
   Input,
-  Text,
-  useDisclosure
+  useDisclosure,
 } from '@chakra-ui/react';
+import { AuthContext } from '../Context/AuthContextProvider';
 
+function Login() {
+  const { accountDetails,setAccountDetails, Login,isAuth,setIsAuth } = useContext(AuthContext);
 
-const Login = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
-  const handleLogin = () => {
-    // Your login logic here
-    // For demonstration, just close the modal
-    onClose();
+  const [loginError, setLoginError] = useState(false);
+  
+  const handleSubmit = () => {
+    // console.log(accountDetails)
+    for (let i = 0; i < accountDetails.length; i++) {
+      // console.log(typeof(accountDetails[0].password))
+      if (email === accountDetails[i].email && password == accountDetails[i].password) {
+        alert("Login success");
+        //add chakra alert icon
+        setEmail("");
+        setPassword("");
+        setLoginError(false);
+        onClose();
+        return; 
+      }
+    }
+    setLoginError(true);
   };
 
   return (
     <>
-      <Button onClick={onOpen}>Login</Button>
+      <Button onClick={onOpen} backgroundColor="transparent" color="white">LOGIN</Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Login</ModalHeader>
+          <ModalHeader>LOGIN</ModalHeader>
           <ModalCloseButton />
-          <ModalBody>
-            <Input
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <Input
-              type="password"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              mt={4}
-            />
+          <ModalBody pb={6}>
+            <FormControl>
+              <FormLabel>Email</FormLabel>
+              <Input
+                placeholder='Email'
+                name='email'
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </FormControl>
+            <FormControl mt={4}>
+              <FormLabel>Password</FormLabel>
+              <Input
+                type='password'
+                placeholder='Password'
+                name='password'
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </FormControl>
+            {loginError && <p style={{ color: 'red' }}>Invalid email or password</p>}
           </ModalBody>
+
           <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={handleLogin}>
-              Login
+            <Button colorScheme='blue' mr={3} onClick={handleSubmit}>
+              Submit
             </Button>
-            <Button variant="ghost" onClick={onClose}>
-              Cancel
-            </Button>
+            <Button onClick={onClose}>Cancel</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>
     </>
   );
-};
+}
 
 export default Login;

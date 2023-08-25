@@ -1,0 +1,40 @@
+{
+  "Account_details": [
+    {
+      "id": 1,
+      "fullName": "Naveen Kumar",
+      "aadhaarNumber": "6376",
+      "dateOfBirth": 11,
+      "mobile": 78,
+      "email": "navee1110@gmail.com",
+      "password": 9575
+    },
+    {
+      "fullName": "",
+      "aadhaarNumber": "",
+      "dateOfBirth": "",
+      "mobile": "",
+      "email": "eve.holt@reqres.in",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "fullName": "",
+      "aadhaarNumber": "",
+      "dateOfBirth": "",
+      "mobile": "",
+      "email": "navee11110@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "fullName": "",
+      "aadhaarNumber": "",
+      "dateOfBirth": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ]
+}
