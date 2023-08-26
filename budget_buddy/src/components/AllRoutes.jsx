@@ -4,6 +4,7 @@ import Login from "../Pages/Login"
 import SignUp from "../Pages/CreateAccount"
 import  CurrencyConversion from "../Pages/CurrencyConversion"
 import { Account } from "../Pages/Account"
+import CreateAccount from "../Pages/CreateAccount"
 function AllRoutes(){
 
 return (
@@ -14,6 +15,9 @@ return (
     <Route path="/signup" element={<SignUp/>}/>
     <Route path="/currency" element={<CurrencyConversion/>}/>
     <Route path="/account" element={<Account/>}/>
+    <Route path="/createaccount" element={<CreateAccount/>}/>
+
+    
 
     </Routes>
 )

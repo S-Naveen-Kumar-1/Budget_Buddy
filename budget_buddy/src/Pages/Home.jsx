@@ -1,8 +1,9 @@
+import Login from "./Login"
 
 function Home(){
 
     return <>
-    HOME
+    <Login/>
     </>
 }
 export default Home

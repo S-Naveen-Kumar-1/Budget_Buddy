@@ -16,7 +16,7 @@ import {
 import { AuthContext } from '../Context/AuthContextProvider';
 
 function Login() {
-  const { accountDetails,setAccountDetails, Login,isAuth,setIsAuth } = useContext(AuthContext);
+  const { accountDetails,setAccountDetails, Login,isAuth,setIsAuth,setUserEmail,setUserPassword } = useContext(AuthContext);
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [email, setEmail] = useState('');
@@ -29,7 +29,8 @@ function Login() {
       // console.log(typeof(accountDetails[0].password))
       if (email === accountDetails[i].email && password == accountDetails[i].password) {
         alert("Login success");
-        //add chakra alert icon
+        setUserEmail(email)
+        setUserPassword(password)
         setEmail("");
         setPassword("");
         setLoginError(false);

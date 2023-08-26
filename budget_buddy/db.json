@@ -10,21 +10,21 @@
       "password": 9575
     },
     {
-      "fullName": "",
+      "fullName": "naveen",
       "aadhaarNumber": "",
       "dateOfBirth": "",
-      "mobile": "",
-      "email": "eve.holt@reqres.in",
+      "mobile": "7829881674",
+      "email": "navee1110@gmail.com",
       "password": "12345",
       "id": 2
     },
     {
-      "fullName": "",
-      "aadhaarNumber": "",
-      "dateOfBirth": "",
-      "mobile": "",
+      "fullName": "S Naveen Kumar",
+      "aadhaarNumber": "14654695458",
+      "dateOfBirth": "2023-03-10",
+      "mobile": "7829881674",
       "email": "navee11110@gmail.com",
-      "password": "123",
+      "password": "9575",
       "id": 3
     },
     {
@@ -32,8 +32,8 @@
       "aadhaarNumber": "",
       "dateOfBirth": "",
       "mobile": "",
-      "email": "",
-      "password": "",
+      "email": "navee1110@gmail.com",
+      "password": "95750",
       "id": 4
     }
   ]
