@@ -7,6 +7,7 @@ Discover a world of financial possibilities with Budget Buddy's cutting-edge ban
 Home Page - Where Your Financial Journey Begins
 ![Home Page](src/Images/home.png)
 
+
 Home Page
 
 At Budget Buddy, we understand the significance of managing your finances efficiently. Our user-friendly interface provides easy navigation, ensuring you have a seamless experience from the moment you land on our home page. With a focus on simplicity and effectiveness, we have crafted an online banking platform that is as welcoming to beginners as it is empowering to seasoned financial experts.
@@ -33,5 +34,6 @@ Account Dashboard
 Stay informed about your financial standing with our comprehensive Account Dashboard. Monitor your transactions, keep track of your balances, and observe your progress towards your financial goals. Our user-centric design ensures that your financial information is presented in a clear and easily understandable format, empowering you to make the best financial choices.
 
 Experience the Budget Buddy difference - where innovation meets user-friendliness, and financial success is within your reach. Join us today and witness the transformational power of effective financial management.
-
+Visit our Deployed Link to explore Budget Buddy and start your journey towards financial freedom.
+https://euphonious-valkyrie-c86e27.netlify.app/
 Your journey to financial freedom starts here, with Budget Buddy.
