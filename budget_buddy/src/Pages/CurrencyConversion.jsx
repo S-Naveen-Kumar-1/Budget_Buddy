@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Box, FormControl, FormLabel, Select, Input, Button, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, Alert, AlertIcon } from '@chakra-ui/react';
+import Footer from './Footer';
 
 const exchangeRates = {
   USD: 1,
@@ -33,7 +34,8 @@ function CurrencyConversion() {
   };
 
   return (
-    <Box p={4}>
+    <Box p={6} bg="lightblue">
+    <Box p={6} bg="lightblue">
       <FormControl>
         <FormLabel>From Currency</FormLabel>
         <Select value={fromCurrency} onChange={(e) => setFromCurrency(e.target.value)}>
@@ -82,6 +84,9 @@ function CurrencyConversion() {
         </ModalContent>
       </Modal>
     </Box>
+    <Footer/>
+    </Box>
+
   );
 }
 

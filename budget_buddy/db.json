@@ -3,38 +3,90 @@
     {
       "id": 1,
       "fullName": "Naveen Kumar",
-      "aadhaarNumber": "6376",
+      "aadhaarNumber": "12356897513",
       "dateOfBirth": 11,
       "mobile": 78,
       "email": "navee1110@gmail.com",
-      "password": 9575
-    },
-    {
-      "fullName": "naveen",
-      "aadhaarNumber": "",
-      "dateOfBirth": "",
-      "mobile": "7829881674",
-      "email": "navee1110@gmail.com",
-      "password": "12345",
-      "id": 2
+      "password": 9575,
+      "balance": 7519
     },
     {
       "fullName": "S Naveen Kumar",
       "aadhaarNumber": "14654695458",
-      "dateOfBirth": "2023-03-10",
+      "dateOfBirth": "2023-08-25",
       "mobile": "7829881674",
       "email": "navee11110@gmail.com",
       "password": "9575",
+      "balance": 1000,
+      "id": 2
+    }
+  ],
+  "transaction_details": [
+    {
+      "id": 1,
+      "type": "Mobile Recharge",
+      "time": "2023-8-27 18:2:31",
+      "amount": 100
+    },
+    {
+      "type": "Mobile Recharge",
+      "time": "2023-8-27 22:53:4",
+      "amount": 100,
+      "id": 2
+    },
+    {
+      "type": "Mobile Recharge",
+      "time": "2023-8-27 23:5:53",
+      "amount": 30,
       "id": 3
     },
     {
-      "fullName": "",
-      "aadhaarNumber": "",
-      "dateOfBirth": "",
-      "mobile": "",
-      "email": "navee1110@gmail.com",
-      "password": "95750",
+      "type": "Mobile Recharge",
+      "time": "2023-8-27 23:6:19",
+      "amount": 55,
       "id": 4
+    },
+    {
+      "type": "Mobile Recharge",
+      "time": "2023-8-27 23:10:44",
+      "amount": 88,
+      "id": 5
+    },
+    {
+      "type": "Mobile Recharge",
+      "time": "2023-8-27 23:10:56",
+      "amount": 50,
+      "id": 6
+    },
+    {
+      "type": "Mobile Recharge",
+      "time": "2023-8-28 8:28:1",
+      "amount": "16",
+      "id": 7
+    },
+    {
+      "type": "Mobile Recharge",
+      "time": "2023-8-28 8:28:6",
+      "amount": "100",
+      "id": 8
+    },
+    {
+      "type": "DTH Recharge",
+      "time": "2023-8-28 9:30:22",
+      "amount": "1",
+      "id": 9
+    },
+    {
+      "type": "DTH Recharge",
+      "time": "2023-8-28 9:30:52",
+      "amount": "1",
+      "id": 10
+    },
+    {
+      "type": "DTH Recharge",
+      "time": "2023-8-28 9:30:53",
+      "amount": "10",
+      "id": 11
     }
   ]
 }
