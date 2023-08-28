@@ -1,70 +1,37 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Welcome to Budget Buddy - Your Path to Financial Freedom
 
-In the project directory, you can run:
+Discover a world of financial possibilities with Budget Buddy's cutting-edge banking solutions. Open the door to a brighter financial future by creating your very own Savings Account with us. Our bank offers a host of exceptional features designed to empower you on your journey towards economic well-being.
 
-### `npm start`
+Home Page - Where Your Financial Journey Begins
+![Home Page](src/Images/home.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Home Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+At Budget Buddy, we understand the significance of managing your finances efficiently. Our user-friendly interface provides easy navigation, ensuring you have a seamless experience from the moment you land on our home page. With a focus on simplicity and effectiveness, we have crafted an online banking platform that is as welcoming to beginners as it is empowering to seasoned financial experts.
 
-### `npm test`
+Create Account - A Step Towards Financial Empowerment
+![Alt text](src/Images/createaccount.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create Account
 
-### `npm run build`
+Are you ready to take control of your finances? Open your Savings Account today and embark on your journey to financial security. Our Create Account page is designed with your convenience in mind. Streamlined forms and a hassle-free process make it easier than ever to become a part of the Budget Buddy family. Your path to financial empowerment begins with just a few simple steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Transaction Page - Manage Your Finances with Ease
+![Alt text](src/Images/transactionpage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Transaction Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you've created your account, gain access to our intuitive Transaction Page. Effortlessly manage your finances, track your spending, and stay in control of your money. Whether you're making purchases, paying bills, or saving for that dream vacation, our Transaction Page provides you with the tools you need to make informed financial decisions.
 
-### `npm run eject`
+Account Dashboard - Your Financial Snapshot at a Glance
+![Alt text](src/Images/accountdashboard.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Account Dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Stay informed about your financial standing with our comprehensive Account Dashboard. Monitor your transactions, keep track of your balances, and observe your progress towards your financial goals. Our user-centric design ensures that your financial information is presented in a clear and easily understandable format, empowering you to make the best financial choices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Experience the Budget Buddy difference - where innovation meets user-friendliness, and financial success is within your reach. Join us today and witness the transformational power of effective financial management.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your journey to financial freedom starts here, with Budget Buddy.

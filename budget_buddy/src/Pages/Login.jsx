@@ -28,9 +28,11 @@ function Login() {
     for (let i = 0; i < accountDetails.length; i++) {
       // console.log(typeof(accountDetails[0].password))
       if (email === accountDetails[i].email && password == accountDetails[i].password) {
+       setIsAuth(true)
         alert("Login success");
         setUserEmail(email)
         setUserPassword(password)
+
         setEmail("");
         setPassword("");
         setLoginError(false);
