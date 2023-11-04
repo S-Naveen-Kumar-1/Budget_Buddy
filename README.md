@@ -5,7 +5,7 @@ Welcome to Budget Buddy - Your Path to Financial Freedom
 Discover a world of financial possibilities with Budget Buddy's cutting-edge banking solutions. Open the door to a brighter financial future by creating your very own Savings Account with us. Our bank offers a host of exceptional features designed to empower you on your journey towards economic well-being.
 
 Home Page - Where Your Financial Journey Begins
-![Home Page](src/Images/home.png)
+![home.png](src/Images/home.png)
 
 Home Page
 
@@ -35,3 +35,4 @@ Stay informed about your financial standing with our comprehensive Account Dashb
 Experience the Budget Buddy difference - where innovation meets user-friendliness, and financial success is within your reach. Join us today and witness the transformational power of effective financial management.
 
 Your journey to financial freedom starts here, with Budget Buddy.
+<h1><strong>Vercel Link:</strong> <a href="https://euphonious-valkyrie-c86e27.netlify.app/">clothly</a></h1>
