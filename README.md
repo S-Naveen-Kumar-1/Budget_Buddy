@@ -13,21 +13,18 @@ Home Page
 At Budget Buddy, we understand the significance of managing your finances efficiently. Our user-friendly interface provides easy navigation, ensuring you have a seamless experience from the moment you land on our home page. With a focus on simplicity and effectiveness, we have crafted an online banking platform that is as welcoming to beginners as it is empowering to seasoned financial experts.
 
 Create Account - A Step Towards Financial Empowerment
-![Alt text](src/Images/createaccount.png)
 
 Create Account
 
 Are you ready to take control of your finances? Open your Savings Account today and embark on your journey to financial security. Our Create Account page is designed with your convenience in mind. Streamlined forms and a hassle-free process make it easier than ever to become a part of the Budget Buddy family. Your path to financial empowerment begins with just a few simple steps.
 
 Transaction Page - Manage Your Finances with Ease
-![Alt text](src/Images/transactionpage.png)
 
 Transaction Page
 
 Once you've created your account, gain access to our intuitive Transaction Page. Effortlessly manage your finances, track your spending, and stay in control of your money. Whether you're making purchases, paying bills, or saving for that dream vacation, our Transaction Page provides you with the tools you need to make informed financial decisions.
 
 Account Dashboard - Your Financial Snapshot at a Glance
-![Alt text](src/Images/accountdashboard.png)
 
 Account Dashboard
 
